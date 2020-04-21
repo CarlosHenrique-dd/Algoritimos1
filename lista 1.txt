@@ -1,0 +1,85 @@
+1-algoritmo "Questão 1"
+var
+nome1, nome2 : caractere
+idade1, idade2 : inteiro
+
+inicio
+escreval("digite o nome da primeira pessoa:")
+leia(nome1)
+escreval("digite a idade da primeira pessoa:")
+leia(idade1)
+escreval("digite o nome da segunda pessoa:")
+leia(nome2)
+escreval("digite a idade da segunda pessoa:")
+leia(idade2)
+escreval(idade1 + idade2)
+
+fimalgoritmo
+
+
+2-algoritmo "Questão 2"
+var
+nome1, nome2 : caractere
+idade1, idade2 : inteiro
+inicio
+escreval("digite o nome da primeira pessoa:")
+leia(nome1)
+escreval("digite a idade da primeira pessoa:")
+leia(idade1)
+escreval("digite o nome da segunda pessoa:")
+leia(nome2)
+escreval("digite a idade da segunda pessoa:")
+leia(idade2)
+escreva("a soma das idade de ",nome1," e ",nome2," é ", idade1+idade2,".")
+
+fimalgoritmo
+
+
+3-algoritmo "Questao 3"
+var
+a,b,c:real
+p1,p2,p3:real
+inicio
+escreval("digite 3 numeros.")
+leia(a,b,c)
+p1<-a-b
+p2<-c/a
+p3<-raizq(b)^c
+escreval(p1*p2+p3)
+
+fimalgoritmo
+
+
+4-algoritmo "questao 4"
+var
+nota1,nota2,peso1,peso2,pesos,soma1,soma2,somas:real
+inicio
+escreval("digite nota 1 e seu peso.")
+leia(nota1,peso1)
+escreval("digite nota 2 e seu peso.")
+leia(nota2,peso2)
+soma1 <-nota1*peso1
+soma2 <-nota2*peso2
+pesos<-peso1+peso2
+somas<-soma1+soma2
+escreva(somas/pesos)
+
+fimalgoritmo
+
+
+5-algoritmo "questao 5"
+var
+comb,km,nece:real
+inicio
+escreval("digite a distancia e o combustivel atual do carro.")
+leia(km,comb)
+nece<-km/comb
+escreval("para a distancia de",km,"sera preciso colocar",nece,"litros.")
+
+fimalgoritmo
+
+6-para reservar um espaço na memoria que ira armazernar o valor da variavel.
+
+7-e um espaço que nao e fixo podendo ser modificado com o tempo.
+
+8-não, o comando leia também pode modificar a variável.
